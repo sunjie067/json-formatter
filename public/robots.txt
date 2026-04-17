@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://json-formatter-dusky-ten.vercel.app/sitemap.xml
