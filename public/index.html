@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free online JSON formatter, validator, and beautifier. Format, validate, and minify JSON data instantly.">
+    <meta name="keywords" content="JSON formatter, JSON validator, JSON beautifier, JSON minify, online JSON tool">
+    <title>JSON Formatter - Free Online JSON Validator & Beautifier</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Ad Space - Top Banner (728x90 or responsive) -->
+    <div class="ad-space ad-top">
+        <div class="ad-placeholder">Advertisement Space - 728x90</div>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>🔧 JSON Formatter</h1>
+            <p class="subtitle">Format, Validate, and Beautify JSON Data</p>
+        </header>
+
+        <div class="main-content">
+            <!-- Left Sidebar Ad (160x600) -->
+            <aside class="ad-space ad-sidebar-left">
+                <div class="ad-placeholder ad-vertical">Ad Space<br>160x600</div>
+            </aside>
+
+            <!-- Main Tool Area -->
+            <main class="tool-area">
+                <div class="controls">
+                    <button id="formatBtn" class="btn btn-primary">✨ Format</button>
+                    <button id="validateBtn" class="btn btn-secondary">✓ Validate</button>
+                    <button id="minifyBtn" class="btn btn-secondary">⚡ Minify</button>
+                    <button id="clearBtn" class="btn btn-danger">🗑 Clear</button>
+                    <button id="copyBtn" class="btn btn-success">📋 Copy</button>
+                    <button id="treeViewBtn" class="btn btn-secondary">🌲 Tree View</button>
+                </div>
+
+                <div class="editor-container">
+                    <div class="editor-section">
+                        <label for="input">Input JSON:</label>
+                        <textarea id="input" placeholder='Paste your JSON here... e.g., {"name":"John","age":30}'></textarea>
+                    </div>
+
+                    <div class="editor-section">
+                        <label for="output">Output:</label>
+                        <div id="output" class="output-area"></div>
+                    </div>
+                </div>
+
+                <div id="errorMessage" class="error-message"></div>
+                <div id="successMessage" class="success-message"></div>
+
+                <!-- Ad Space - Below Tool (728x90) -->
+                <div class="ad-space ad-bottom">
+                    <div class="ad-placeholder">Advertisement Space - 728x90</div>
+                </div>
+
+                <!-- Features Section -->
+                <section class="features">
+                    <h2>Features</h2>
+                    <div class="feature-grid">
+                        <div class="feature-card">
+                            <h3>✨ Format & Beautify</h3>
+                            <p>Transform minified JSON into readable, properly indented format</p>
+                        </div>
+                        <div class="feature-card">
+                            <h3>✓ Validate</h3>
+                            <p>Check JSON syntax and get detailed error messages with line numbers</p>
+                        </div>
+                        <div class="feature-card">
+                            <h3>⚡ Minify</h3>
+                            <p>Compress JSON by removing whitespace and line breaks</p>
+                        </div>
+                        <div class="feature-card">
+                            <h3>🌲 Tree View</h3>
+                            <p>Visualize JSON structure in an expandable tree format</p>
+                        </div>
+                        <div class="feature-card">
+                            <h3>🔒 Privacy First</h3>
+                            <p>All processing happens in your browser - no data sent to servers</p>
+                        </div>
+                        <div class="feature-card">
+                            <h3>📋 Easy Copy</h3>
+                            <p>One-click copy formatted JSON to clipboard</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- How to Use Section -->
+                <section class="how-to-use">
+                    <h2>How to Use</h2>
+                    <ol>
+                        <li><strong>Paste</strong> your JSON data into the input area</li>
+                        <li><strong>Click Format</strong> to beautify and indent your JSON</li>
+                        <li><strong>Click Validate</strong> to check for syntax errors</li>
+                        <li><strong>Click Minify</strong> to compress your JSON</li>
+                        <li><strong>Click Copy</strong> to copy the result to clipboard</li>
+                    </ol>
+                </section>
+
+                <!-- FAQ Section -->
+                <section class="faq">
+                    <h2>Frequently Asked Questions</h2>
+                    <div class="faq-item">
+                        <h3>What is JSON?</h3>
+                        <p>JSON (JavaScript Object Notation) is a lightweight data format used for storing and exchanging data between servers and web applications.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Is my data safe?</h3>
+                        <p>Yes! All JSON processing happens locally in your browser. No data is sent to any server.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>What's the difference between Format and Minify?</h3>
+                        <p>Format adds indentation and line breaks for readability. Minify removes all whitespace to reduce file size.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Can I use this for large JSON files?</h3>
+                        <p>Yes, but very large files (>10MB) may slow down your browser. For best performance, use files under 5MB.</p>
+                    </div>
+                </section>
+            </main>
+
+            <!-- Right Sidebar Ad (160x600) -->
+            <aside class="ad-space ad-sidebar-right">
+                <div class="ad-placeholder ad-vertical">Ad Space<br>160x600</div>
+            </aside>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 JSON Formatter. All rights reserved. | <a href="#privacy">Privacy Policy</a> | <a href="#contact">Contact</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
